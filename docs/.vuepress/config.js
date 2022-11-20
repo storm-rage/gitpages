@@ -8,7 +8,7 @@ module.exports = {
             //浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
         ],
     ],
-    base: "/vuepress/",
+    base: "/",
     dest: "./dist",
     markdown: {
         lineNumbers: true
