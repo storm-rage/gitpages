@@ -9,7 +9,6 @@ module.exports = {
         ],
     ],
     base: "/",
-
     dest: "./dist",
     markdown: {
         lineNumbers: true
