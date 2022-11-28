@@ -13,6 +13,7 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
+
     // theme: 'vuepress-theme-xx',
     themeConfig: {
         //搜索结果数量
