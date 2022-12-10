@@ -4,18 +4,18 @@ module.exports = {
     description: 'Just playing around',
     head:[
         ['link',
-            { rel: 'icon', href: '/egg.png' }
+            { rel: 'icon', href: '/pkq.jpg' }
             //浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
         ],
     ],
-    base: "/",
-    dest: "./dist",
+    base: "/gitpages/",//部署时再放开
+    dest: "./dist",//部署时再放开
     markdown: {
         lineNumbers: true
     },
-
     // theme: 'vuepress-theme-xx',
     themeConfig: {
+        logo:'/pkq.jpg',
         //搜索结果数量
         searchMaxSuggestions: 10,
         nav: [
